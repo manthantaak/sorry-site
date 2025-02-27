@@ -137,19 +137,16 @@ const ValentinePage = () => {
                   </div>
                 </div>
 
-
-
-                 {/* Additional Sections */}
-              <div className="space-y-8 max-w-2xl mx-auto mt-6">
-                {/* pretty */}
+                {/* Pretty You Section */}
                 <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
                   <h2 className="text-2xl font-bold text-pink-600 mb-4">Pretty You</h2>
                   <div className="relative w-full h-80">
-                    <Image src="/lovevid.mp4" alt="pretty you" layout="fill" objectFit="cover" quality={100} />
+                    <video className="w-full h-full object-cover" controls>
+                      <source src="/lovevid.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
                   </div>
                 </div>
-
-                
 
                 {/* Sorry Section */}
                 <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
