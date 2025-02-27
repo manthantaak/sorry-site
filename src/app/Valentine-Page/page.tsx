@@ -24,7 +24,7 @@ const ImageCarousel = () => {
     { src: "/love1.jpg", alt: "Romantic moment 1" },
     { src: "/love2.jpg", alt: "Romantic moment 2" },
     { src: "/love3.jpg", alt: "Romantic moment 3" },
-    { src: "/love4.jpg", alt: "Romantic moment 4" },
+    { src: "/cute.jpg", alt: "Romantic moment 4" },
     { src: "/love5.jpg", alt: "Romantic moment 5" },
     { src: "/love6.jpg", alt: "Romantic moment 6" },
   ];
@@ -137,16 +137,7 @@ const ValentinePage = () => {
                   </div>
                 </div>
 
-                {/* Pretty You Section */}
-                <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
-                  <h2 className="text-2xl font-bold text-pink-600 mb-4">Pretty You</h2>
-                  <div className="relative w-full h-80">
-                    <video className="w-full h-full object-cover" controls>
-                      <source src="/lovevid.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
+               
 
                 {/* Sorry Section */}
                 <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
