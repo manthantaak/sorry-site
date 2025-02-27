@@ -2,7 +2,7 @@ import React from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 
 const ValentineQr: React.FC = () => {
-  const qrValue = ''; // URL to be added here
+  const qrValue = 'https://sorry-site.vercel.app/Valentine-Page'; // URL to be added here
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
