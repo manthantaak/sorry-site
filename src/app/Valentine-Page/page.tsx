@@ -142,7 +142,7 @@ const ValentinePage = () => {
                   <h2 className="text-2xl font-bold text-pink-600 mb-4">A Little Apology</h2>
                   <p className="text-lg text-pink-500">
                   I know I may not deserve forgiveness for everything, but what I&apos;m asking for is a chance - a chance to improve, a chance to show you how deeply I care about our relationship. Beyond my tantrums, my anger, and my flaws, you are the one thing that keeps me going. You&apos;re the driving force in my life now.
-                  So Devanshi, after everything you&apos;ve done for me, I&apos;m not just saying sorry - I&apos;m asking for a second chance to be better, to show you the person I can be. I promise you won&apos;t regret giving me this opportunity. You&apos;re the reason I want to change, to grow, to be someone worthy of your love. 💝
+                  So Tamanna, after everything you&apos;ve done for me, I&apos;m not just saying sorry - I&apos;m asking for a second chance to be better, to show you the person I can be. I promise you won&apos;t regret giving me this opportunity. You&apos;re the reason I want to change, to grow, to be someone worthy of your love. 💝
                   </p>
                 </div>
 
@@ -150,14 +150,14 @@ const ValentinePage = () => {
                 <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
                   <h2 className="text-2xl font-bold text-pink-600 mb-4">A Little Note for You</h2>
                   <p className="text-lg text-pink-500 italic">
-                    My dearest Devanshi,
+                    My love Tamanna,
                     <br />
                     <br />
-                    When I look at you, I find confidence and hope in everything I do. Even when we argue about the smallest things, I cherish that you&apos;re the only one I can be completely myself with. Falling in love with you has been my craziest adventure, and I&apos;m absolutely head over heels for you.
-Here I am, making this website at 6:44 AM, dehydrated and hungry, yet filled with energy just because you&apos;re on my mind. The strength I get from thinking of you is incredible. Thank you for being my Gwen - you&apos;re truly my love, my everything. 💗
+                    When I look at you, I find confidence and hope in everything I do. Even when we argue about the smallest things, I cherish that you&apos;re the only one I can be completely myself with. Falling in love with you has been my craziest adventure, 
+ The strength I get from thinking of you is incredible. Thank you for being my Gwen - you&apos;re truly my love, my everything. 💗
                     <br />
                     Forever yours,<br />
-                    Prerak 💖
+                    Manthan 💖
                   </p>
                 </div>
               </div>
@@ -173,7 +173,7 @@ Here I am, making this website at 6:44 AM, dehydrated and hungry, yet filled wit
               </div>
 
               <h1 className="text-3xl font-bold text-pink-600 mt-4">
-                Will you be my Valentine?
+                Do You Love Me?
               </h1>
 
               <div className="flex justify-center space-x-4 mt-8">
