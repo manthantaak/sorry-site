@@ -21,12 +21,12 @@ const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    { src: "/p1.jpg", alt: "Romantic moment 1" },
-    { src: "/p2.jpg", alt: "Romantic moment 2" },
-    { src: "/p3.jpg", alt: "Romantic moment 3" },
-    { src: "/p4.jpg", alt: "Romantic moment 4" },
-    { src: "/p5.jpg", alt: "Romantic moment 5" },
-    { src: "/p6.jpg", alt: "Romantic moment 6" },
+    { src: "/love1.jpg", alt: "Romantic moment 1" },
+    { src: "/love2.jpg", alt: "Romantic moment 2" },
+    { src: "/love3.jpg", alt: "Romantic moment 3" },
+    { src: "/love4.jpg", alt: "Romantic moment 4" },
+    { src: "/love5.jpg", alt: "Romantic moment 5" },
+    { src: "/love6.jpg", alt: "Romantic moment 6" },
   ];
 
   useEffect(() => {
