@@ -21,10 +21,10 @@ const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
+    { src: "/tam.jpg", alt: "Romantic moment 3" },
+    { src: "/cute.jpg", alt: "Romantic moment 4" },
     { src: "/love1.jpg", alt: "Romantic moment 1" },
     { src: "/love2.jpg", alt: "Romantic moment 2" },
-    { src: "/love3.jpg", alt: "Romantic moment 3" },
-    { src: "/cute.jpg", alt: "Romantic moment 4" },
     { src: "/love5.jpg", alt: "Romantic moment 5" },
     { src: "/love6.jpg", alt: "Romantic moment 6" },
   ];
