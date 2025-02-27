@@ -21,12 +21,12 @@ const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    { src: "/p1.jpg", alt: "Romantic moment 1" },
-    { src: "/p2.jpg", alt: "Romantic moment 2" },
-    { src: "/p3.jpg", alt: "Romantic moment 3" },
-    { src: "/p4.jpg", alt: "Romantic moment 4" },
-    { src: "/p5.jpg", alt: "Romantic moment 5" },
-    { src: "/p6.jpg", alt: "Romantic moment 6" },
+    { src: "/globe.svg", alt: "Romantic moment 1" },
+    { src: "/globe.svg", alt: "Romantic moment 2" },
+    { src: "/globe.svg", alt: "Romantic moment 3" },
+    { src: "/globe.svg", alt: "Romantic moment 4" },
+    { src: "/globe.svg", alt: "Romantic moment 5" },
+    { src: "/globe.svg", alt: "Romantic moment 6" },
   ];
 
   useEffect(() => {
@@ -134,7 +134,7 @@ const ValentinePage = () => {
                 <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
                   <h2 className="text-2xl font-bold text-pink-600 mb-4">Our Love in Motion</h2>
                   <div className="relative w-full h-80">
-                    <Image src="/gif.webp" alt="Cute couple gif" className='' layout="responsive" width={200} height={50} />
+                    <Image src="/love.gif" alt="Cute couple gif" className='' layout="responsive" width={150} height={30} />
                   </div>
                 </div>
 
