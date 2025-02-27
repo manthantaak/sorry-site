@@ -35,11 +35,11 @@ const ImageCarousel = () => {
     }, 3000);
 
     return () => clearInterval(timer);
-  }, );
+  }, []);
 
   return (
     <div className="w-full max-w-md mx-auto mt-8">
-      <div className="rounded-xl  overflow-hidden bg-white/80 backdrop-blur-sm shadow-lg">
+      <div className="rounded-xl overflow-hidden bg-white/80 backdrop-blur-sm shadow-lg">
         <div className="relative h-[470px] w-full">
           <div 
             className="flex transition-transform duration-500 ease-in-out h-full"
@@ -50,9 +50,10 @@ const ImageCarousel = () => {
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  width={50}
-                  height={50}
-                  className="w-full h-full object-cover"
+                  layout="fill"
+                  objectFit="cover"
+                  quality={100}
+                  className="w-full h-full"
                 />
               </div>
             ))}
@@ -70,11 +71,9 @@ const ImageCarousel = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
-
 
 const ValentinePage = () => {
   const [isClient, setIsClient] = useState(false);
@@ -100,7 +99,7 @@ const ValentinePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white  flex flex-col items-center justify-center p-4 relative overflow-hidden">
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4 relative overflow-hidden">
       {isClient && (
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {[...Array(12)].map((_, i) => (
@@ -112,7 +111,7 @@ const ValentinePage = () => {
       <div className={`transform transition-all duration-1000 ${
         showMessage ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
       }`}>
-        <div className="bg-gradient-to-br from-pink-200 to-red-200 backdrop-blur-lg  rounded-3xl p-8 max-w-md mx-auto text-center shadow-xl relative">
+        <div className="bg-gradient-to-br from-pink-200 to-red-200 backdrop-blur-lg rounded-3xl p-8 max-w-md mx-auto text-center shadow-xl relative">
           {answer === 'yes' ? (
             <div className="space-y-6">
               <div className="flex justify-center space-x-2">
@@ -124,7 +123,7 @@ const ValentinePage = () => {
                 Yaaay! 🎉
               </h1>
               <p className="text-lg text-white font-bold">
-               PERKIIIIIIIIIIIII I LOVE YOU TOOOOOOOO!❤️
+                I LOVE YOU BABY!❤️
               </p>
               <ImageCarousel />
 
@@ -134,7 +133,7 @@ const ValentinePage = () => {
                 <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 shadow-xl">
                   <h2 className="text-2xl font-bold text-pink-600 mb-4">Our Love in Motion</h2>
                   <div className="relative w-full h-80">
-                    <Image src="/love.gif" alt="Cute couple gif" className='' layout="responsive" width={150} height={30} />
+                    <Image src="/love.gif" alt="Cute couple gif" layout="fill" objectFit="cover" quality={100} />
                   </div>
                 </div>
 
@@ -163,8 +162,6 @@ Here I am, making this website at 6:44 AM, dehydrated and hungry, yet filled wit
                 </div>
               </div>
             </div>
-
-
           ) : (
             <div className="space-y-6">
               <div className="relative">
